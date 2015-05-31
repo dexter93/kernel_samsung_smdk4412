@@ -647,7 +647,7 @@ endif
 
 #Disable the whole of the following block to disable LKM AUTH
 ifeq ($(TIMA_ENABLED),1)
-	KBUILD_CFLAGS += -DTIMA_LKM_AUTH_ENABLED -Idrivers/gud20/MobiCoreKernelApi/include/
+	KBUILD_CFLAGS += -DTIMA_LKM_AUTH_ENABLED -Idrivers/gud/MobiCoreKernelApi/include/
 	KBUILD_AFLAGS += -DTIMA_LKM_AUTH_ENABLED
 endif
 

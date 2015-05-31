@@ -142,7 +142,7 @@ obj-$(CONFIG_IR_REMOCON)	+= irda/
 obj-$(CONFIG_BARCODE_EMUL)	+= barcode_emul/
 obj-$(CONFIG_EXTCON)		+= extcon/
 # Secure OS Mobicore
-obj-$(CONFIG_MOBICORE_DRIVER)	+= gud20/
+obj-$(CONFIG_MOBICORE_DRIVER)	+= gud/
 
 obj-$(CONFIG_IOMMU_SUPPORT)	+= iommu/
 

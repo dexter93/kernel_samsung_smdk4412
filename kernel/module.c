@@ -116,8 +116,8 @@ typedef enum {
 
 #ifdef TIMA_ON_MC20
 
-#include <../drivers/gud20/MobiCoreKernelApi/public/mobicore_driver_api.h>
-#include <../drivers/gud20/MobiCoreKernelApi/public/mobicore_driver_cmd.h>
+#include <../drivers/gud/MobiCoreKernelApi/public/mobicore_driver_api.h>
+#include <../drivers/gud/MobiCoreKernelApi/public/mobicore_driver_cmd.h>
 
 #include <linux/fs.h>
 #include <asm/uaccess.h>
